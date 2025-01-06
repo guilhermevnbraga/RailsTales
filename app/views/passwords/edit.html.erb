@@ -1,0 +1,18 @@
+<main class="container d-flex justify-content-center align-items-center vh-100">
+  <div class="w-50">
+    <h2 class="mb-4"><%= t('passwords.edit.title') %></h2>
+    <%= form_with model: @user, url: password_path(params[:token]), method: :patch, local: true do |form| %>
+      <div class="mb-3">
+        <%= form.label :password, t('passwords.edit.password_label'), class: "form-label" %>
+        <%= form.password_field :password, class: "form-control" %>
+      </div>
+      <div class="mb-3">
+        <%= form.label :password_confirmation, t('passwords.edit.password_confirmation_label'), class: "form-label" %>
+        <%= form.password_field :password_confirmation, class: "form-control" %>
+      </div>
+      <div class="mb-3">
+        <%= form.submit t('passwords.edit.submit'), class: "btn btn-primary" %>
+      </div>
+    <% end %>
+  </div>
+</main>

@@ -1,0 +1,7 @@
+Hi <%= @user.name %>
+<br>
+<%= t('password_mailer.reset.request') %>
+<br>
+<%= t('password_mailer.reset.instructions') %>
+<br>
+<%= link_to t('password_mailer.reset.link_text'), edit_password_url(id: @user.id, token: @token) %>

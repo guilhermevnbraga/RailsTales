@@ -1,0 +1,73 @@
+en:
+  home:
+    index:
+      title: "Rails Tales"
+      welcome: "Welcome, %{name}!"
+      logout: "Logout"
+      login: "Login"
+      signup: "Sign up"
+      new_post: "New Post"
+      post_info: "%{name} - %{time} ago"
+      edit: "Edit"
+      delete: "Delete"
+      confirm_delete: "Are you sure?"
+      comments: "Comments"
+      anonymous: "Anonymous"
+      time_ago: "%{time} ago"
+      new_comment: "New Comment"
+      add_comment: "Add Comment"
+  password_mailer:
+    reset:
+      request: "Someone requested a reset of your password."
+      instructions: "If this was you, click on the link to reset your password. The link will expire automatically in 15 minutes."
+      link_text: "Reset Password"
+  passwords:
+    edit:
+      title: "Reset your password"
+      password_label: "New Password"
+      password_confirmation_label: "Confirm New Password"
+      submit: "Reset Password"
+    new:
+      title: "Forgot Password"
+      email_label: "Email Address"
+      submit: "Send Reset Instructions"
+  posts:
+    edit:
+      title: "Edit Post"
+      errors_title: "%{count} errors prohibited this post from being saved:"
+      title_label: "Title"
+      content_label: "Content"
+      submit: "Update Post"
+    new:
+      title: "New Post"
+      errors_title: "%{count} errors prohibited this post from being saved:"
+      title_label: "Title"
+      content_label: "Content"
+      submit: "Create Post"
+  sessions:
+    new:
+      title: "Login"
+      email_label: "Email"
+      password_label: "Password"
+      submit: "Login"
+      forgot_password_link: "Forgot your password?"
+  
+  users:
+    edit:
+      title: "Edit User"
+      name_label: "Name"
+      email_label: "Email"
+      password_label: "Password"
+      password_confirmation_label: "Password Confirmation"
+      submit: "Update User"
+    new:
+      title: "Sign Up"
+      name_label: "Name"
+      email_label: "Email"
+      password_label: "Password"
+      password_confirmation_label: "Password Confirmation"
+      submit: "Sign Up"
+
+  errors:
+    prohibited: "prohibited this user from being saved:"
+    count: "%{count} error(s) prohibited this user from being saved:"

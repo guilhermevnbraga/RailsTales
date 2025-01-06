@@ -1,0 +1,91 @@
+pt:
+  home:
+    index:
+      title: "Rails Tales"
+      welcome: "Bem-vindo, %{name}!"
+      logout: "Sair"
+      login: "Entrar"
+      signup: "Cadastrar"
+      new_post: "Novo Post"
+      post_info: "%{name} - %{time} atrás"
+      edit: "Editar"
+      delete: "Excluir"
+      confirm_delete: "Você tem certeza?"
+      comments: "Comentários"
+      anonymous: "Anônimo"
+      time_ago: "%{time} atrás"
+      new_comment: "Novo Comentário"
+      add_comment: "Adicionar Comentário"
+  datetime:
+    distance_in_words:
+      about_x_minutes:
+        one: "1 minuto"
+        other: "%{count} minutos"
+      about_x_hours:
+        one: "1 hora"
+        other: "%{count} horas"
+      x_days:
+        one: "1 dia"
+        other: "%{count} dias"
+      about_x_months:
+        one: "1 mês"
+        other: "%{count} meses"
+      x_years:
+        one: "1 ano"
+        other: "%{count} anos"
+      ago: "atrás"
+  password_mailer:
+    reset:
+      request: "Alguém solicitou a redefinição da sua senha."
+      instructions: "Se foi você, clique no link para redefinir sua senha. O link expirará automaticamente em 15 minutos."
+      link_text: "Redefinir Senha"
+  passwords:
+    edit:
+      title: "Redefina sua senha"
+      password_label: "Nova Senha"
+      password_confirmation_label: "Confirmar Nova Senha"
+      submit: "Redefinir Senha"
+    new:
+      title: "Esqueceu a Senha"
+      email_label: "Endereço de Email"
+      submit: "Enviar Instruções de Redefinição"
+  posts:
+    edit:
+      title: "Editar Post"
+      errors_title: "%{count} erro(s) impediram que o post fosse salvo:"
+      title_label: "Título"
+      content_label: "Conteúdo"
+      submit: "Atualizar Post"
+    new:
+      title: "Novo Post"
+      errors_title: "%{count} erro(s) impediram que o post fosse salvo:"
+      title_label: "Título"
+      content_label: "Conteúdo"
+      submit: "Criar Post"
+  sessions:
+    new:
+      title: "Entrar"
+      email_label: "Email"
+      password_label: "Senha"
+      submit: "Entrar"
+      forgot_password_link: "Esqueceu sua senha?"
+  
+  users:
+    edit:
+      title: "Editar Usuário"
+      name_label: "Nome"
+      email_label: "Email"
+      password_label: "Senha"
+      password_confirmation_label: "Confirmar Senha"
+      submit: "Atualizar Usuário"
+    new:
+      title: "Cadastrar"
+      name_label: "Nome"
+      email_label: "Email"
+      password_label: "Senha"
+      password_confirmation_label: "Confirmar Senha"
+      submit: "Cadastrar"
+
+  errors:
+    prohibited: "impediu que este usuário fosse salvo:"
+    count: "%{count} erro(s) impediram que este usuário fosse salvo:"
