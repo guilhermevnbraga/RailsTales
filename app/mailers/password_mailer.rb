@@ -4,6 +4,6 @@ class PasswordMailer < ApplicationMailer
   
     @token = @user.signed_id(purpose: 'password_reset', expires_in: 15.minutes)
     
-    mail(from: "crazyboysfh3@gmail.com", to: @user.email, subject: 'Reset your password')
+    mail(from: ENV['GOOGLE_APP_EMAIL'], to: @user.email, subject: 'Reset your password')
   end
 end
