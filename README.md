@@ -27,7 +27,7 @@ O Rails Tales é um blog desenvolvido em Ruby on Rails onde os usuários podem i
 - **Bootstrap:** Para estilização da interface.
 - **PostgreSQL:** Banco de dados utilizado para armazenar dados dos usuários e histórias.
 
-## Como Executar o Projeto
+## Como Executar o Projeto localmente
 
 ### Pré-requisitos
 
