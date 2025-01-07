@@ -1,14 +1,14 @@
 require_relative "boot"
 
 require "rails/all"
-
-# Require the gems listed in Gemfile, including any gems
-# you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
+
+if Rails.env.development? || Rails.env.test?
+  Dotenv::Railtie.load
+end
 
 module RailsTales
   class Application < Rails::Application
-    # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 8.0
 
     config.autoload_lib(ignore: %w[assets tasks])

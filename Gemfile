@@ -60,6 +60,7 @@ group :development do
   gem "web-console"
   gem 'rspec-rails'
   gem 'factory_bot_rails', '~> 6.0'
+  gem 'dotenv-rails'
 end
 
 group :test do
