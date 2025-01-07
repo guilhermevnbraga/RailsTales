@@ -20,19 +20,25 @@ pt:
     distance_in_words:
       about_x_minutes:
         one: "1 minuto"
+        other: "Cerca de %{count} minutos"
+      x_minutes:
+        one: "1 minuto"
         other: "%{count} minutos"
-      about_x_hours:
+      x_hours:
         one: "1 hora"
         other: "%{count} horas"
+      about_x_hours:
+        one: "1 hora"
+        other: "Cerca de %{count} horas"
       x_days:
         one: "1 dia"
-        other: "%{count} dias"
+        other: "Cerca de %{count} dias"
       about_x_months:
         one: "1 mês"
-        other: "%{count} meses"
+        other: "Cerca de %{count} meses"
       x_years:
         one: "1 ano"
-        other: "%{count} anos"
+        other: "Cerca de %{count} anos"
       ago: "atrás"
   password_mailer:
     reset:
